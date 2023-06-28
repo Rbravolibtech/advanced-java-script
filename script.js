@@ -73,4 +73,4 @@ console.log(ageJonas, ageSarah);
 
 const firstName = "Jonas";
 const lastName = "Bravo";
-console.log(firstName + lastName);
+console.log(firstName + " " + lastName);
