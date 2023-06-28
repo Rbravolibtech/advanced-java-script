@@ -10,6 +10,8 @@ console.log(firstName);
 console.log(firstName);
 console.log(firstName);
 
+// variable name conventions
+
 let jonas_matilda = "JM";
 let $function = 27;
 
@@ -19,6 +21,3 @@ let myFirstJob = "Programmer";
 let myCurrentJob = "Teacher";
 
 console.log(myFirstJob);
-
-let job1 = "programmer";
-let job2 = "teacher";
