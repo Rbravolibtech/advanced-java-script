@@ -161,3 +161,8 @@ lines",
 console.log(`String
 multiple
 lines`);
+
+/* ============= TAKING DECISIONS =============== */
+
+const age = 19;
+const isOldEnough = age >= 18;
