@@ -97,7 +97,7 @@ console.log(now - 1991 > now - 2018);
 
 
 /* =========================== OPERATOR PRECEDENCE ========================= */
-
+/* 
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -109,3 +109,16 @@ console.log(25 - 10 - 5);
 let x, y;
 x = y = 25 - 10 - 5; // x = y = 10, x = 10
 console.log(x, y);
+
+const averageAge = ageJonas + ageSarah / 2;
+console.log(ageJonas, ageSarah);
+
+/*============= CHALLENGE =============== */
+
+// Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula:
+
+// BMI = mass / height ** 2 = mass / (height * height) (mass in kg and height in meter).
+
+// Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+
+//Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
