@@ -24,6 +24,7 @@ let myCurrentJob = "Teacher";
 
 console.log(myFirstJob);
 */
+/*
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -36,7 +37,7 @@ javascriptIsFun = "YES!";
 console.log(javascriptIsFun);
 
 /* UNDEFINED VARIABLE THAT DISPLAYS ON CONSOLE */
-
+/*
 let year;
 console.log(year);
 console.log(typeof year);
@@ -45,3 +46,9 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+*/
+
+/*============ LET CONST AND VAR ======= */
+
+let age = 30;
+age = 31;
