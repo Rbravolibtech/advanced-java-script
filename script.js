@@ -65,7 +65,7 @@ lastName = "Bravo";
 console.log(lastName);
 */
 
-/*=========================== OPERATORS ========================= */
+/*=========================== MATH OPERATORS ========================= */
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -74,3 +74,13 @@ console.log(ageJonas, ageSarah);
 const firstName = "Jonas";
 const lastName = "Bravo";
 console.log(firstName + " " + lastName);
+
+/*=========================== ASSIGNMENT OPERATORS ========================= */
+
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1
+x--;
+x--;
+console.log(x);
