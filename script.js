@@ -137,7 +137,7 @@ const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);
 
 /* ============= STRINGS AND TEMPLATE LITERALS =============== */
-
+/*
 const firstName = "Jonas";
 const job = "teacher";
 const birthYear = 1991;
@@ -164,5 +164,23 @@ lines`);
 
 /* ============= TAKING DECISIONS =============== */
 
-const age = 19;
-const isOldEnough = age >= 18;
+const age = 15;
+
+if (age >= 18) {
+	console.log("Sarah can start driving license 🚘");
+} else {
+	const yearsLeft = 18 - age;
+	console.log(`Sarah is to young. Wait another ${yearsLeft} years :)`);
+}
+
+const birthYear = 2012;
+
+let century;
+if (birthYear <= 2000) {
+	century = 20;
+} else {
+	century = 21;
+}
+console.log(century);
+
+/* ============= CHALLENGE NUMBER 2 =============== */
