@@ -66,3 +66,11 @@ console.log(lastName);
 */
 
 /*=========================== OPERATORS ========================= */
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
+
+const firstName = "Jonas";
+const lastName = "Bravo";
+console.log(firstName + lastName);
