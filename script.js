@@ -66,6 +66,7 @@ console.log(lastName);
 */
 
 /*=========================== MATH OPERATORS ========================= */
+/* 
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -75,8 +76,8 @@ const firstName = "Jonas";
 const lastName = "Bravo";
 console.log(firstName + " " + lastName);
 
-/*=========================== ASSIGNMENT OPERATORS ========================= */
-
+/* =========================== ASSIGNMENT OPERATORS ========================= */
+/* 
 let x = 10 + 5; // 15
 x += 10; // x = x + 10 = 25
 x *= 4; // x = x * 4 = 100
@@ -86,10 +87,25 @@ x--;
 console.log(x);
 
 /*=========================== COMPARISON OPERATORS ========================= */
-
+/* 
 console.log(ageJonas > ageSarah); // >, <, >=, <=
 console.log(ageSarah >= 18);
 
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
+
+
+/* =========================== OPERATOR PRECEDENCE ========================= */
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+
+console.log(now - 1991 > now - 2018);
+
+console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x, y);
