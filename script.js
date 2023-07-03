@@ -240,7 +240,7 @@ console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean(Bravo));
 console.log(Boolean({}));
-console.log(Boolean(""));*/
+console.log(Boolean(""));
 
 const money = 100;
 if (money) {
@@ -255,3 +255,33 @@ if (height) {
 } else {
 	console.log("Height is undefined");
 }
+*/
+
+/* ============= OPERATORS =============== */
+/*
+const age = 18;
+if (age === 18) console.log("You just became and adult");
+if (age == 18) console.log("You just became and adult (loose)");
+
+const favorite = prompt("What's your favorite number?");
+console.log(favorite);
+console.log(typeof favorite);
+
+
+const favorite = Number(prompt("what's you favorite number?"));
+console.log(favorite);
+console.log(typeof favorite);
+
+if (favorite === 23) {
+	console.log("cool! 23 is an amazing number!");
+} else if (favorite === 7) {
+	console.log("7 is also a cool number");
+} else if (favorite === 9) {
+	console.log("9 is also a cool number");
+} else {
+	console.log("Number is not 23 or 7 or 9");
+}
+
+if (favorite !== 23) console.log("why not 23");
+*/
+/* ============= BOOLEAN LOGIC =============== */
