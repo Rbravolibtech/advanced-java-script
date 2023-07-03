@@ -191,7 +191,7 @@ console.log(century);
 //2. Modify the outputs above to use template literals to include the BMI values in the outputs.
 
 //Example: "Mark's BMI (28.3) is higher than John's (23.9)!" or "John's BMI (29.1) is higher than Mark's (27)!".
-
+/* 
 const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
@@ -206,3 +206,11 @@ if (BMIMark > BMIJohn) {
 } else {
 	console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
 }
+/* ============= Javascript fundamentals part 1  =============== */
+
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Jonas"));
+console.log(typeof NaN);
