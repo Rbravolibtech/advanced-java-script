@@ -228,3 +228,5 @@ console.log("23" * "2");
 let n = "1" + 1; // the first number is a string the second is the number which is why it adds to '11'
 n = n - 1; // then you minus 1 which when logged in it equals to 10
 console.log(n);
+
+"10" - "4" - "3" - 2 + "5"; // this equals 15
