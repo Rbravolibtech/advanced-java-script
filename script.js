@@ -322,7 +322,7 @@ if (scoreDolphins > scoreKoalas) {
 }
 */
 /* =============== SWITCH STATEMENT =============== */
-
+/*
 const day = "monday";
 
 switch (day) {
@@ -347,6 +347,7 @@ switch (day) {
 		console.log("Not a valid day!");
 }
 /* =============== SWITCH STATEMENT written as a IF STATEMENT =============== */
+/* 
 if (day === "monday") {
 	console.log("Plan course structure");
 	console.log("Go to coding meetup");
@@ -361,3 +362,16 @@ if (day === "monday") {
 } else {
 	console.log("Not a valid day!");
 }
+*/
+
+/* =============== STATEMENTS AND EXPRESSIONS =============== */
+
+3 + 4;
+1991;
+true && false && !false;
+
+if (23 > 10) {
+	const str = "23 is bigger";
+}
+const me = "Jonas";
+console.log(`I'm ${2037 - 1991} years old ${me}`);
