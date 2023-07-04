@@ -284,4 +284,27 @@ if (favorite === 23) {
 
 if (favorite !== 23) console.log("why not 23");
 */
-/* ============= BOOLEAN LOGIC =============== */
+/* ============= LOGICAL OPERATORS =============== */
+const hasDriversLicense = true; // A
+const hasGoodVision = false; // B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+/*
+if (hasDriversLicense && hasGoodVision) {
+	console.log("Sarah is able to drive!");
+} else {
+	console.log("Someone else should drive...");
+} */
+
+const isTired = false; // c
+console.log(hasDriversLicense || hasGoodVision || isTired);
+
+if (hasDriversLicense && hasGoodVision && isTired) {
+	console.log("Sarah is able to drive!");
+} else {
+	console.log("Someone else should drive...");
+}
+
+/* =============== CHALLENGE 3 =============== */
